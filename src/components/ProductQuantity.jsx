@@ -39,8 +39,8 @@ const ProductQuantity = ({ quantity, setQuantity }) => {
           type="number"
           value={quantity}
           onChange={(e) => {
-            const value = e.target.value;
-            if (value >= 1 && value <= 100) {
+            const value = parseInt(e.target.value);
+            if (!isNaN(value) && value >= 1 && value <= 100) {
               setQuantity(value);
             }
           }}
