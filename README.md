@@ -1,3 +1,5 @@
+## Deployed Link
+Visit : https://shopix-by-pgtir.vercel.app/
 
 ## Technologies Used 
 React, Redux, Formik, and Material UI
